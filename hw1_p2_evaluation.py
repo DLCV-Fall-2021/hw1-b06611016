@@ -125,4 +125,4 @@ if __name__ == '__main__':
     masks_RGB = masks_RGB.astype(np.uint8)    
     for i, p in enumerate(masks_RGB):
         imageio.imsave(outputfile_path + testing_img_name[i].split('.')[0] + '.png', p)
-    print("finish")  
+    print("finish prediction")  

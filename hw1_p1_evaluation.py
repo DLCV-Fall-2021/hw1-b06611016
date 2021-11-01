@@ -100,3 +100,4 @@ if __name__ == '__main__':
         f.write("image_id,label\n")
         for i, pred in enumerate(predictions):
             f.write(f"{testing_img_name[i]}, {pred}\n")
+    print("finish prediction")
